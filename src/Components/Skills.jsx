@@ -30,7 +30,7 @@ const Skills = () => {
   return (
     <>
       <section ref={container} className="w-full md:w-4/5 py-20 mx-auto">
-        <h1 className="text-2xl roboto-bold text-center mb-14">
+        <h1 className="text-2xl sora font-bold text-center mb-14 text-[#272343]">
           My Top Skills
         </h1>
         <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-3 md:grid-cols-4">

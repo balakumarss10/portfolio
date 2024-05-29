@@ -5,6 +5,7 @@ import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 import Skills from "./Components/Skills";
+import { Lines } from "react-preloaders";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Portfolio />
       </Element>
       <Footer />
+      <Lines time={3000} color="#2c67f2" />
     </>
   );
 }

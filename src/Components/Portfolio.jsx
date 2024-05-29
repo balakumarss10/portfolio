@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <>
       <section className="w-full py-20 md:py-36 md:w-5/6 mx-auto">
-        <h1 className="text-center text-2xl roboto-bold mb-10">Projects</h1>
+        <h1 className="text-center text-2xl sora font-bold mb-10 text-[#272343]">Projects</h1>
         <div className="flex flex-wrap justify-between">
           <div className="w-72 h-[26rem] mb-16 shadow-2xl rounded-md mx-auto hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
             <img src={refernow} alt="refernow" />
@@ -15,7 +15,7 @@ const Portfolio = () => {
               Program using Bootstrap5.
             </p>
             <a
-              className="text-white p-2 rounded-md mx-24 bg-[#7859F6]"
+              className="p-2 rounded-md mx-24 inter font-medium text-[#2d334a] bg-[#ffcb56]"
               href="https://balakumarss10.github.io/refernowpage/"
               target="_blank"
             >
@@ -30,7 +30,7 @@ const Portfolio = () => {
               benefits of the British Curriculum.
             </p>
             <a
-              className="text-white p-2 rounded-md mx-24 bg-[#7859F6]"
+              className="p-2 rounded-md mx-24 inter font-medium text-[#2d334a] bg-[#ffcb56]"
               href="https://balakumarss10.github.io/eycpage/"
               target="_blank"
             >
@@ -45,7 +45,7 @@ const Portfolio = () => {
               built using react.
             </p>
             <a
-              className="text-white p-2 rounded-md mx-24 bg-[#7859F6]"
+              className="p-2 rounded-md mx-24 inter font-medium text-[#2d334a] bg-[#ffcb56]"
               href="https://balakumarss10.github.io/cart.github.io/"
               target="_blank"
             >

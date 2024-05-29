@@ -6,13 +6,10 @@ const Home = () => {
   return (
     <>
       <section className="w-full py-20 md:py-36">
-        <div className="flex flex-col-reverse items-center md:flex-row bg-[#6171F9] md:px-32">
+        <div className="flex flex-col-reverse items-center md:flex-row bg-gradient-to-l from-[#62cff4] to-[#2c67f2] md:px-32">
           <div className="width-full md:w-1/2 text-start px-3 pb-4">
-            <h1 className="text-4xl text-white font-medium md:text-5xl py-3 roboto-bold">
-              Hey I'm{" "}
-              <span className="underline underline-offset-4 decoration-white">
-                Balakumar
-              </span>
+            <h1 className="text-4xl text-white font-bold md:text-5xl py-3 sora">
+              Hey I'm Balakumar
             </h1>
             <p className="leading-loose inter font-medium tracking-wide text-white py-3">
               Frontend Focused Web Developer. I'm open to Job opportunities
@@ -20,7 +17,7 @@ const Home = () => {
               professionally. Check out some of my work in the Portfolio
               section.
             </p>
-            <div className="leading-loose inter tracking-wide text-white text-xl">
+            <div className="leading-loose inter font-medium tracking-wide text-white text-xl">
               <Typewriter
                 options={{
                   strings: [

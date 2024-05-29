@@ -84,7 +84,7 @@ const Header = () => {
             </li>
           </ul>
           <a
-            className="hidden md:block roboto-bold text-white rounded-full bg-[#7859F6] py-2 px-4 hover:translate-y-0.5"
+            className="hidden md:block inter font-medium text-[#2d334a] rounded-full bg-[#ffcb56] py-2 px-4 hover:translate-y-0.5"
             href={Balakumar}
             download
           >
