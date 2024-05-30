@@ -5,21 +5,20 @@ const Footer = () => {
 
   return (
     <>
-    <footer className="bg-black py-6 inter text-white tracking-wide">
-    <div className="w-full flex flex-col justify-between py-3 sm:flex-row px-3 md:px-28">
-       <div className="py-2 w-full sm:w-1/3">
+    <footer className="bg-[#20242F] py-5 inter text-white tracking-wide">
+    <div className="w-full md:w-4/5 flex flex-col md:flex-row justify-between py-3 px-3 mx-auto">
+       <div className="py-2 w-full sm:w-3/5 md:w-1/3">
         <h1 className="text-xl sora font-bold uppercase">Balakumar</h1>
-        <p className="py-2 text-sm">A Frontend Developer creating website and web app interfaces that drive product success.</p> 
+        <p className="py-2 text-sm leading-loose">A Frontend Developer creating website and web app interfaces that drive product success.</p> 
        </div>
-       <div className="py-2 w-full sm:w-1/3 md:w-1/6">
+       <div className="py-2">
         <h1 className="sora font-bold text-xl pb-3 uppercase">Social</h1>
-        <p className='flex'><Social /></p>
+        <p className='flex pb-2'><Social /></p>
+        <a className='text-blue-400' href='mailto:balakumarss10@gmail.com'>balakumarss@gmail.com</a>
         </div>            
     </div>
-      <div className="container mx-auto border-t">
-        <p className="text-center text-xs md:text-sm pt-6"> &copy;{' '}{date}. This website was developed by Balakumar.</p>
-      </div>
       </footer>
+      <p className="bg-black text-white text-center text-xs md:text-sm py-2"> &copy;{' '}{date}. This website was developed by Balakumar.</p>
     </>
   );
 };

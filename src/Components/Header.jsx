@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <>
       <header className="w-full px-6 py-2 sticky top-0 z-50 bg-white border-b-2 border-gray-200">
-        <div className="flex justify-around md:justify-between items-center">
+        <div className="container mx-auto flex justify-around md:justify-between items-center">
           <img
             className="rounded-full"
             src={balakumar}

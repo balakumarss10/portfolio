@@ -24,14 +24,14 @@ const Skills = () => {
         grid: [4,4],
         ease: "power3.inOut",
         repeat:-1,
-        yoyo:true
+        yoyo:true,
       },
     });
   }, {scope: container});
 
   return (
     <>
-      <section ref={container} className="w-full md:w-4/5 py-20 mx-auto">
+      <section ref={container} className="w-full md:h-5/6 lg:w-4/5 py-20 mx-auto">
         <h1 className="text-2xl sora font-bold text-center mb-14 text-[#272343]">
           My Top Skills
         </h1>

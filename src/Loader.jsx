@@ -41,7 +41,7 @@ const Loader = () => {
   );
   return (
     <>
-      <section ref={container} className="fixed top-2/4 left-2/4">
+      <section ref={container} className="fixed flex items-center justify-center w-full h-full">
         <div className="box1 absolute w-9 h-9 rounded-full bg-fuchsia-500"></div>
         <div className="box2 absolute w-9 h-9 rounded-full bg-cyan-500"></div>
         <div className="box3 absolute w-9 h-9 rounded-full bg-amber-400 z-10"></div>

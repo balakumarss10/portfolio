@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <>
-      <section className="width-full px-3 py-20 md:py-32 md:w-3/5 mx-auto">
+      <section className="w-full px-3 py-20 md:py-32 md:w-5/6 lg:w-3/5 mx-auto">
         <h1 className="sora font-bold text-3xl mb-2 text-[#272343]">About Me!</h1>
         <p className="inter leading-loose tracking-wide mb-4 text-slate-700">
           A motivated individual with a keen interest in Web Development. I'm
@@ -28,13 +28,13 @@ const About = () => {
           <div>
             <h3 className="text-lg sora font-bold text-[#3b82f6]">Interest</h3>
             <p className="inter leading-loose tracking-wide text-slate-700">
-              Web, AWS Cloud
+              Web Development
             </p>
           </div>
           <div>
             <h3 className="text-lg sora font-bold text-[#3b82f6]">Born</h3>
             <p className="inter leading-loose tracking-wide text-slate-700">
-              09 09 1998
+              09-09-1998
             </p>
           </div>
           <div>

@@ -2,3 +2,15 @@
   color: #2c67f2;
   font-weight: bold;
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d7d6fe;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+}

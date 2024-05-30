@@ -7,6 +7,7 @@ import Portfolio from "./Components/Portfolio";
 import Skills from "./Components/Skills";
 import Loader from "./Loader";
 import { useEffect, useState } from "react";
+import './App.css'
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -15,7 +16,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 4000);
   }, []);
   return (
     <>
