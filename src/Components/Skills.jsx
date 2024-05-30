@@ -14,15 +14,17 @@ const Skills = () => {
 
   useGSAP(() => {
     gsap.to(".bounce", {
-      y: -10,
-      duration: 0.8,
+      duration: 1,
+      scale: 0.5,
+      y: 30,
       stagger: {
-        each: 0.3,
-        from: "center",
-        grid: "auto",
-        ease: "power1",
-        yoyo: true,
-        repeat: -1,
+        each:1,
+        from: 'end',
+        axis:"y",
+        grid: [4,4],
+        ease: "power3.inOut",
+        repeat:-1,
+        yoyo:true
       },
     });
   }, {scope: container});
@@ -35,97 +37,97 @@ const Skills = () => {
         </h1>
         <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-3 md:grid-cols-4">
           <div className="flex flex-col items-center">
-            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3 hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
+            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3">
               <FaHtml5 />
             </span>
             <p className="inter">HTML</p>
           </div>
           <div className="flex flex-col items-center">
-            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3 hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
+            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3">
               <FaCss3Alt />
             </span>
             <p className="inter">CSS</p>
           </div>
           <div className="flex flex-col items-center">
-            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3 hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
+            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3">
               <DiJavascript />
             </span>
             <p className="inter">JavaScript</p>
           </div>
           <div className="flex flex-col items-center">
-            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3 hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
+            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3">
               <DiJqueryLogo />
             </span>
             <p className="inter">jQuery</p>
           </div>
           <div className="flex flex-col items-center">
-            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3 hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
+            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3">
               <FaBootstrap />
             </span>
             <p className="inter">Bootstrap</p>
           </div>
           <div className="flex flex-col items-center">
-            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3 hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
+            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3">
               <RiTailwindCssFill />
             </span>
             <p className="inter">Tailwind</p>
           </div>
           <div className="flex flex-col items-center">
-            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3 hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
+            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3">
               <FaReact />
             </span>
             <p className="inter">React</p>
           </div>
           <div className="flex flex-col items-center">
-            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3 hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
+            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3">
               <IoLogoNodejs />
             </span>
             <p className="inter">Node</p>
           </div>
           <div className="flex flex-col items-center">
-            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3 hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
+            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3">
               <SiExpress />
             </span>
             <p className="inter">Express</p>
           </div>
           <div className="flex flex-col items-center">
-            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3 hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
+            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3">
               <DiMysql />
             </span>
             <p className="inter">Mysql</p>
           </div>
           <div className="flex flex-col items-center">
-            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3 hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
+            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3">
               <SiMongodb />
             </span>
             <p className="inter">MongoDB</p>
           </div>
           <div className="flex flex-col items-center">
-            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3 hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
+            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3">
               <FaAws />
             </span>
             <p className="inter">Cloud</p>
           </div>
           <div className="flex flex-col items-center">
-            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3 hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
+            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3">
               <FaLinux />
             </span>
             <p className="inter">Linux</p>
           </div>
           <div className="flex flex-col items-center">
-            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3 hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
+            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3">
               <FaGit />
             </span>
             <p className="inter">Git</p>
           </div>
           <div className="flex flex-col items-center">
-            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3 hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
+            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3">
               <FaGithub />
             </span>
             <p className="inter">GitHub</p>
           </div>
           <div className="flex flex-col items-center">
-            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3 hover:shadow hover:shadow-lg hover:shadow-[#3b82f6]">
+            <span className="bounce text-7xl p-3 rounded-lg text-[#3b82f6] bg-[#d7d6fe] mb-3">
               <FaDocker />
             </span>
             <p className="inter">Docker</p>

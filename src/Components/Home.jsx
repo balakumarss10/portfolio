@@ -1,4 +1,4 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import Social from "./Social";
 import balakumar from "./images/balakumar.webp";
 import Typewriter from "typewriter-effect";
 
@@ -32,34 +32,7 @@ const Home = () => {
               />
             </div>
             <div className="mt-3 flex flex-nowrap">
-              <a
-                className="text-2xl text-white me-6"
-                href="https://www.linkedin.com/in/balakumarss10"
-                target="_blank"
-              >
-                <FaLinkedin />
-              </a>
-              <a
-                className="text-2xl text-white me-6"
-                href="https://www.instagram.com/balakumar.10"
-                target="_blank"
-              >
-                <FaInstagram />
-              </a>
-              <a
-                className="text-2xl text-white me-6"
-                href="https://wa.me/9790418259"
-                target="_blank"
-              >
-                <FaWhatsapp />
-              </a>
-              <a
-                className="text-2xl text-white"
-                href="https://www.github.com/balakumarss10"
-                target="_blank"
-              >
-                <FaGithub />
-              </a>
+            <Social /> 
             </div>
           </div>
           <div className="width-full md:w-1/2 py-14 flex justify-center md:justify-end">
