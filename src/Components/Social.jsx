@@ -1,31 +1,34 @@
-import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { LiaLinkedinIn } from "react-icons/lia";
+import { AiFillInstagram } from "react-icons/ai";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const Social = () => {
   return (
     <>
       <a
-        className="text-2xl text-white me-6"
+        className="text-lg text-[#2c67f2] bg-white p-2 me-6 rounded-full"
         href="https://www.linkedin.com/in/balakumarss10"
         target="_blank"
       >
-        <FaLinkedin />
+        <LiaLinkedinIn />
       </a>
       <a
-        className="text-2xl text-white me-6"
+        className="text-lg text-[#2c67f2] bg-white rounded-full p-2 me-6"
         href="https://www.instagram.com/balakumar.10"
         target="_blank"
       >
-        <FaInstagram />
+        <AiFillInstagram />
       </a>
       <a
-        className="text-2xl text-white me-6"
+        className="text-lg text-[#2c67f2] bg-white rounded-full p-2 me-6"
         href="https://wa.me/9790418259"
         target="_blank"
       >
-        <FaWhatsapp />
+        <IoLogoWhatsapp />
       </a>
       <a
-        className="text-2xl text-white"
+        className="text-lg text-[#2c67f2] bg-white rounded-full p-2"
         href="https://www.github.com/balakumarss10"
         target="_blank"
       >

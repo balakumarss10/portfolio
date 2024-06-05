@@ -18,7 +18,7 @@ const Home = () => {
                 professionally. Check out some of my work in the Portfolio
                 section.
               </p>
-              <div className="leading-loose inter font-medium tracking-wide text-white text-lg sm:text-xl">
+              <div className="leading-loose sora font-bold tracking-wide text-white text-lg sm:text-xl">
                 <Typewriter
                   options={{
                     strings: [
